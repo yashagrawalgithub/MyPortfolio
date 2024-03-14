@@ -1,0 +1,20 @@
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
+
+.skill-item {
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+.skill-item img {
+    width: 140px; /* Adjust as needed */
+    height: 140px;
+}
+
+.skill-item:hover {
+    transform: scale(1.1);
+}

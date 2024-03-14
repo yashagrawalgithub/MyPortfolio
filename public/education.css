@@ -1,0 +1,48 @@
+.education-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.book {
+    width: 200px;
+    text-align: center;
+}
+
+.book-cover {
+    margin-top: 100px;
+    margin-right: 100px;
+    width: 250px;
+    height: 250px;
+    background-color: #000; /* Book cover background color */
+    border: 2px solid white; /* Book cover border */
+    padding: 10px; /* Padding to separate content from border */
+    box-sizing: border-box; /* Ensure padding is included in width/height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.book-description {
+    margin-top: 25px;
+    flex-grow: 1;
+}
+
+.book-description h2 {
+    margin: 0;
+}
+
+.book-description p {
+    margin: 5px 0;
+    margin-top: 40px;
+    font-size: larger;
+}
+.book-description p {
+    flex-grow: 1;
+    display: none; /* Initially hide the description */
+}
+
+.book:hover p {
+    display: block; /* Display the description on hover */
+}

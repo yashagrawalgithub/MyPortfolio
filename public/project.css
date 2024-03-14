@@ -1,0 +1,36 @@
+.projects-container {
+    padding-left: 100px;
+    padding-top: 20px;
+    
+}
+
+.project-item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+    transform: scale(1.1);
+}
+
+.project-item img {
+    width: 250px; /* Adjust as needed */
+    height: 250px;
+    margin-right: 20px;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    flex-grow: 1;
+}
+
+.project-item:hover .description {
+    opacity: 1;
+}
