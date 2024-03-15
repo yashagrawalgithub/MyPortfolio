@@ -11,8 +11,8 @@
 }
 
 .skill-item img {
-    width: 140px; /* Adjust as needed */
-    height: 140px;
+    width: 120px; /* Adjust as needed */
+    height: 120px;
 }
 
 .skill-item:hover {
