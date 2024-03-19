@@ -1,7 +1,6 @@
 .projects-container {
-    padding-left: 100px;
+    padding-left: 20px;
     padding-top: 20px;
-    
 }
 
 .project-item {
@@ -12,7 +11,7 @@
 }
 
 .project-item:hover {
-    transform: scale(1.1);
+    transform: scale(1);
 }
 
 .project-item img {
